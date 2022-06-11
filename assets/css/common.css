@@ -1,0 +1,117 @@
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    margin: -1px;
+}
+.inner {
+    width: 1130px;
+    margin: 0 auto;
+}
+body {
+    font-size: 12px;
+    line-height: 16px;
+    color: #202020;
+    min-width: 1190px;
+}
+.img-bd {
+    display: block;
+    position: relative;
+}
+.img-bd::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid #000;
+    opacity: 0.1;
+}
+.thumb-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .1;
+    background: #000;
+}
+.shop-control {
+    position: absolute;
+    top: -8px;
+    right: 0;
+    text-align: right;
+}
+
+.header-area .ico-whale,
+.header-area .whaledown .ico-down::before,
+.header-area .top-banner-close::after {
+    background-image: url(../images/sprite-20211123@2x.png);
+    background-repeat: no-repeat;
+    background-size: 116px 112px;
+}
+
+.header-area h1.logo a::after,
+.header-area .search-area .search-submit,
+.header-area .search-area .ico-keyboard,
+.header-area .search-area .auto-ico,
+.header-area .naver-home::after,
+.header-area .ico-junior,
+.header-area .ico-bin,
+.header-area .gnb-area .ico-mail,
+.header-area .gnb-area .shopping::before,
+.header-area .gnb-area .shopping-live::before,
+.header-area .gnb-area .ico-tv,
+.header-area .gnb-wrap .more::after,
+.sc-news .group-issue .link-media::after,
+.sc-news .group-title .news-stand::after,
+.sc-news .group-title .news-stand::before,
+.sc-news .group-title .ico-set::after,
+.sc-news .list-btn::before,
+.sc-book .book-head .my-theme::before,
+.sc-book .main-category .btn-prev::after,
+.sc-book .group-head .my-theme::before,
+.sc-theme .media-item .ico-play,
+.sc-theme .theme-more .ico-more,
+.sc-login .login-btn .ico-naver,
+.sc-login .my-login .find-id::before,
+.sc-login .my-login .join::before,
+.sc-issue .left-right-btn a::after,
+.sc-theme .main-category .btn-prev::after,
+.footer-area .notice-area .service a::after,
+.sc-theme .group-head .my-theme::before  {
+    background-image: url(../images/sp_main_dba1af.png);
+    background-repeat: no-repeat;
+    background-size: 457px;
+}
+
+
+.header-area .group-weather .celsius::before {
+    background-image: url(../images/sp_weather_time_5f2bbb.png);
+    background-repeat: no-repeat;
+    background-size: 215px 185px;
+}
+.sc-theme .theme-item .title-ad .ico-ad::after{
+    background-image: url(../images/download.png);
+    background-repeat: no-repeat;
+    background-size: 78px 72px;
+}
+.sc-theme .theme-item .brand-ad::after {
+    background: url(../images/ico_link_arrow2.png) 0 0 no-repeat;
+    background-size: 6px 12px;
+}
+.sc-shop .shop-head .shop-title::before,
+.sc-shop .shop-head .shop-title::after,
+.sc-shop .shop-control .btn-box a::after,
+.sc-shop .sale-time::after,
+.sc-shop .shop-list .title::after,
+.one-deal .cata-title .title a::after,
+.sc-shop .deal-item .ico-deal,
+.sc-shop .one-deal .img-box+.img-box::before {
+    background-image: url(../images/sp_shop_a620bd.png);
+    background-repeat: no-repeat;
+    background-size: 107px 101px;
+}
