@@ -1008,14 +1008,16 @@
     padding: 21px 0 14px;
     margin: 0 8px;
     border-top: 1px solid #e4e8eb; 
-}
-
-.sc-shop .shop-list {
     position: relative;
+}
+.shop-thumb .shop-control {
+    position: absolute;
+    top: 13px;
+    right: 5px;
+    text-align: right;
 }
 .sc-shop .shop-list .title {
     display: block;
-    vertical-align: top;
     font-size: 13px;
     line-height: 17px;
     font-weight: 700;
