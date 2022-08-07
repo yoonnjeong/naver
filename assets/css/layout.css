@@ -572,6 +572,7 @@
 .footer-area .link-box {
     overflow: hidden;
     float: left;
+    width: 50%;
     max-width: 150px;
 }
 .footer-area .link-box > a {
